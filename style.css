@@ -1,0 +1,57 @@
+h1 {
+  color: brown;
+  margin: 10px;
+  background-color: beige;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3.5vw;
+  width: 100vw;
+}
+h1 + h2 {
+  color: grey;
+  margin: 10px;
+  background-color: beige;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2vw;
+  width: 100vw;
+}
+h1 + h2 + div {
+  width: 100vw;
+  height: 20vw;
+  padding: 4vw 40vw 4vw 40vw;
+}
+h1 + h2 + div:hover {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+h1 + h2 + div:hover img {
+  transform: scale(150%);
+}
+h1 + h2 + div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2vw 0 3vw 0;
+  background-image: url("img/cookiewallpaper.PNG");
+  background-repeat: repeat;
+}
+body section {
+  width: 30vw;
+  background-color: grey;
+  border-radius: 2vw 2vw;
+}
+body section h3 {
+  margin: 1.3vw 2vw 0.7vw 2vw;
+}
+body section ul, body section ol {
+  margin: 0 3vw 1.3vw 3vw;
+}/*# sourceMappingURL=style.css.map */
